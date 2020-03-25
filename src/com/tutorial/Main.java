@@ -6,6 +6,6 @@ public class Main {
 	// write your code here
         var calculator = new TaxCalculator2020(100_000);
         var report = new TaxReport();
-        report.setCalculator(calculator);
+        report.show(calculator);
     }
 }
